@@ -3,7 +3,7 @@ require "shotgun"
 
 configure do
   enable :sessions
-  set :session_secret, "StarWars"
+  set :session_secret, 'StarWars'
 end
 
 get '/' do
