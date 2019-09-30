@@ -19,5 +19,6 @@ get '/bands' do
 end
 
 get '/picture' do
+  @header = ["The Bombay Bicycle Club", "Ed Nash", "Jack Steadmen", "Jamie MacColl", "Suren de Saram"].sample
   erb :images
 end
